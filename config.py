@@ -1,0 +1,3 @@
+baseUrl = "http://localhost:8001/"
+accessToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0LCJ1c2VyX25hbWUiOiJyYWtlc2hAeW9wbWFpbC5jb20iLCJyYW5kb21faWQiOiJlMzNiNDMyZi0xMTY3LTQ5M2YtOTg0Yy1kMGEwOWM2ZmJjZDEifQ.lsNE9nN0OnmHpxrqmIwq9jQZBD4qpZNCN8KzBw74UrQ"
+

@@ -1,0 +1,81 @@
+payload_format = {
+    "clinic_id": "integer_0",
+    "patient": {
+        "patient_id": "string_45",
+        "patient_first_name": "string_45",
+        "patient_middle_name": "string_45",
+        "patient_last_name": "string_45",
+        "patient_date_of_birth": "date_yyyy-mm-dd",
+        "patient_sex": "string_45",
+        "patient_email": "string_45",
+        "patient_ethnicity": "string_45",
+        "patient_mobile": "string_45",
+        "patient_race": "string_45",
+        "patient_preferred_language": "string_45",
+        "patient_country_code": "string_45",
+        "patient_state": "string_45",
+    },
+    "clinician": {
+        "clinician_email": "string_45",
+        "clinician_first_name": "string_45",
+        "clinician_last_name": "string_45",
+        "clinician_middle_name": "string_45",
+        "npi_id": "string_45",
+    },
+}
+
+payload = {
+    "clinic_id": 1,
+    "patient": {
+        "patient_id": "test994",
+        "patient_first_name": "Robert",
+        "patient_middle_name": "P",
+        "patient_last_name": "William",
+        "patient_date_of_birth": "2022-05-08",
+        "patient_sex": "male",
+        "patient_email": "patient_003@yopmail.com",
+        "patient_ethnicity": "Hispanic/latino",
+        "patient_mobile": "9087668744",
+        "patient_race": "white",
+        "patient_preferred_language": "en",
+        "patient_country_code": "+91",
+        "patient_state": "NV",
+    },
+    "clinician": {
+        "clinician_email": "clinician_01@yopmail.com",
+        "clinician_first_name": "Rakesh",
+        "clinician_last_name": "S",
+        "clinician_middle_name": "Singh",
+        "npi_id": "1947",
+    },
+}
+
+appointment_payload = {
+    "clinic_id": "integer",
+    "patient": {
+        "patient_id": "string_45",
+        "patient_first_name": "string_45",
+        "patient_middle_name": "string_45",
+        "patient_last_name": "string_45",
+        "patient_date_of_birth": "date_yyyy-mm-dd",
+        "patient_sex": "string_45",
+        "patient_email": "string_45",
+        "patient_ethnicity": "string_45",
+        "patient_mobile": "string_45",
+        "patient_race": "string_45",
+        "patient_preferred_language": "string_45",
+        "patient_country_code": "string_45",
+        "patient_state": "string_45",
+    },
+    "clinician": {
+        "clinician_email": "string_45",
+        "clinician_first_name": "string_45",
+        "clinician_last_name": "string_45",
+        "clinician_middle_name": "string_45",
+        "npi_id": "string_45",
+    },
+    "appointment": {
+        "appointment_id": "int",
+        "appointment_date": "datetime_yyyy-mm-dd hh:mm:ss",
+    },
+}
